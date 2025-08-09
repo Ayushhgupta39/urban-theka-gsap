@@ -1,3 +1,4 @@
+import Cocktails from "@/components/Cocktails";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import "@/lib/gsap";
@@ -7,7 +8,7 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      
+      <Cocktails />
     </main>
   );
 }
